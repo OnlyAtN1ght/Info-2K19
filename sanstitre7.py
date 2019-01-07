@@ -9,9 +9,23 @@ class Tableau:
     
     def __init__(self,tableau):
         self.tableau = tableau
-    #Check if c'est une bonne liste
+        
+        self.isNormalize = False
+        
+        self.check()
+    
+    def check(self):
+        if len(0):
+            self.isNormalize = True
+        if list(l) == [0] * len(l):
+            self.tableau = []
+            self.isNormalize = True
+        
         
     def normalize(self):
+        if self.isNormalize:
+            return self.tableau
+            
         #Removing the fucking useless zeros at the end of the list
         j = len( self.tableau)-1
         while  self.tableau[j] == 0:
@@ -23,7 +37,7 @@ class Tableau:
             self.tableau.pop()
             
         if j==-1:
-            return ("",[])
+            return ([])
         
         
         
