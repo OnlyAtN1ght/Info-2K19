@@ -7,10 +7,13 @@ import numpy as np
 
 
 def representation(fonction,borne_inf,borne_sup):
-    X = [i for i in np.arange(borne_inf, borne_sup, 0.5)]
+    X = [i for i in np.arange(borne_inf, borne_sup, 0.3)]
     Y = [fonction(j) for j in X]
     plt.plot(X,Y)
     plt.show()
 
+def f(x):
+    return x**3 -3*x +2
+
 if __name__=="__main__":
-    representation(g,-10,10)
+    representation(f,-10,10)
