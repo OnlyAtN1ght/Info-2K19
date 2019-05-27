@@ -1,0 +1,128 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" 
+-1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "" {TEXT -1 38 "Cr\351ation et exploratio
+n de labyrinthes" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 28 "restart:with(LinearAlgebra):" }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 16 "1. Pr\351liminaires" }}{SECT 0 {PARA 5 "
+" 0 "" {TEXT -1 32 "1.2 Mod\351lisation d'un labyrinthe" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "impair:
+=proc(p::nonnegint) local s:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "s:=p
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "while s>0 do s:=s-2 od; if s=0
+ then false else true fi;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'impairGf*6#'%\"pG%*nonnegintG6#%\"
+sG6\"F,C%>8$9$?(F,\"\"\"F2F,2\"\"!F/>F/,&F/F2\"\"#!\"\"@%/F/F4%&falseG
+%%trueGF,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "impair(5);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 10 "impair(8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fa
+lseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "bord:=proc(i::nonne
+gint,j::nonnegint) global n;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "if \+
+i=1 then true elif i=2*n+1 then true elif j=1 then true elif j=2*n+1 t
+hen true else false fi;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%bordGf*6$'%\"iG%*nonnegintG'%\"jGF)
+6\"F,F,@+/9$\"\"\"%%trueG/F/,&*&\"\"#F0%\"nGF0F0F0F0F1/9%F0F1/F8F3F1%&
+falseGF,6#F6F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "n:=4;bord
+(1,45);bord(2,48);bord(15,1);bord(97,25);bord(97,1);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"nG\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%tru
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}}{SECT 0 {PARA 0 "" 0 "" 
+{TEXT -1 24 "Cr\351ation d'un labyrinthe" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "A:=Matrix(2*n+1,2*n+1
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'RTABLEG6%\"*!=nx8-%'MAT
+RIXG6#7+7+\"\"!F.F.F.F.F.F.F.F.F-F-F-F-F-F-F-F-%'MatrixG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 11 "EXERCICE 4\n" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 68 "initialisation:=proc() local A,k,l;global n;\nA:=Matr
+ix(2*n+1,2*n+1);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 180 "for k from 1 t
+o 2*n+1 do for l from 1 to 2*n+1 do if bord(k,l)=true then A[k,l]:=0 e
+lif impair(k)=false and impair(l)=false then A[k,l]:=1 else A[k,l]:=0 \+
+fi od od;A[1,2]:=1;A; end;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%/initi
+alisationGf*6\"6%%\"AG%\"kG%\"lGF&F&C&>8$-%'MatrixG6$,&*&\"\"#\"\"\"%
+\"nGF4F4F4F4F1?(8%F4F4F1%%trueG?(8&F4F4F1F8@'/-%%bordG6$F7F:F8>&F-F?\"
+\"!3/-%'impairG6#F7%&falseG/-FF6#F:FH>FAF4>FAFB>&F-6$F4F3F4F-F&6#F5F&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "initialisation(4);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*WswP\"-%'MATRIXG6#7+7+\"\"!\"\"\"F,
+F,F,F,F,F,F,7+F,F-F,F-F,F-F,F-F,7+F,F,F,F,F,F,F,F,F,F.F/F.F/F.F/%'Matr
+ixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "hasard:=proc(n)" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "rand(1..n)();end;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%'hasardGf*6#%\"nG6\"F(F(--%%randG6#;\"\"\"9$F(F(F(
+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "hasard(8);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 
+"EXERCIE 5" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "creation:=proc() \nlo
+cal A,s,h,k;\nglobal n;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "A:=initi
+alisation();\ns:=n*n-1;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 165 "while s
+>0 do\n h:=hasard(2*n+1);\n k:=hasard(2*n+1);\nif A[h,k]=0 and bord(h,
+k)=false and (impair(h)=false or impair(k)=false) then A[h,k]:=1;s:=s-
+1; \nfi; \nod; \nA;\nend;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%)creati
+onGf*6\"6&%\"AG%\"sG%\"hG%\"kGF&F&C&>8$-%/initialisationGF&>8%,&*&%\"n
+G\"\"\"F5F6F6F6!\"\"?(F&F6F6F&2\"\"!F2C%>8&-%'hasardG6#,&*&\"\"#F6F5F6
+F6F6F6>8'F>@$33/&F.6$F=FEF:/-%%bordGFK%&falseG5/-%'impairG6#F=FO/-FS6#
+FEFOC$>FJF6>F2,&F2F6F6F7F.F&6#F5F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "n:=2;cr
+eation();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"\"#" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*?+ZP\"-%'MATRIXG6#7'7'\"\"!\"\"\"
+F,F,F,7'F,F-F-F-F,F+F.7'F,F,F,F,F,%'MatrixG" }}}{EXCHG }{EXCHG }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 28 "3. Exploration du labyrinthe" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "EX
+ERCICE 6" }}}{EXCHG {PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 361 "visite:=proc(i,j)\nglobal B,t,compt;\ncompt
+:=0;\nif j>2 then if B[i,j-1]=1 then B[i,j-1]:=-2*(t+1);\n compt:=comp
+t+1;fi;fi;\nif j<2*n then if B[i,j+1]=1 then B[i,j+1]:=-2*(t+1);\n com
+pt:=compt+1;fi;fi;\nif i>2 then if B[i-1,j]=1 then B[i-1,j]:=-2*(t+1);
+\n compt:=compt+1;fi;fi;\nif i<2*n then if B[i+1,j]=1 then B[i+1,j]:=-
+2*(t+1);\n compt:=compt+1;fi;fi;\nB[i,j]:=t;\nend;" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%'visiteGf*6$%\"iG%\"jG6\"F)F)C(>%&comptG\"\"!@$2\"
+\"#9%@$/&%\"BG6$9$,&F1\"\"\"F9!\"\"F9C$>F4,&*&F0F9%\"tGF9F:F0F:>F,,&F,
+F9F9F9@$2F1,$*&F0F9%\"nGF9F9@$/&F56$F7,&F1F9F9F9F9C$>FIF=>F,FA@$2F0F7@
+$/&F56$,&F7F9F9F:F1F9C$>FSF=>F,FA@$2F7FD@$/&F56$,&F7F9F9F9F1F9C$>FgnF=
+>F,FA>&F56$F7F1F?F)6%F5F?F,F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 332 "explore:=proc()\n
+local i,j,M;\nglobal B,A,n,t,compt;\nt:=0; B:=copy(A);\nB[1,2]:=-2; M:
+=1;\nwhile M>0 do t:=t+1;M:=0;\n for i from 1 to 2*n+1 do \n for j fro
+m 1 to 2*n+1 do\nif B[i,j]=-2*t then visite (i,j); M:=M+compt;\nfi; od
+; od; od;\n for i from 2 to 2*n do\n for j from 2 to 2*n do\nif B[i,j]
+=1 then B[i,j]:='C';\nfi; od; od;\nevalm(B);\nend;" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%(exploreGf*6\"6%%\"iG%\"jG%\"MGF&F&C)>%\"tG\"\"!>%
+\"BG-%%copyG6#%\"AG>&F06$\"\"\"\"\"#!\"#>8&F8?(F&F8F8F&2F.F<C%>F-,&F-F
+8F8F8>F<F.?(8$F8F8,&*&F9F8%\"nGF8F8F8F8%%trueG?(8%F8F8FEFH@$/&F06$FDFJ
+,$*&F9F8F-F8!\"\"C$-%'visiteGFN>F<,&F<F8%&comptGF8?(FDF9F8,$*&F9F8FGF8
+F8FH?(FJF9F8FYFH@$/FMF8>FM.%\"CG-%&evalmG6#F0F&6'F0F4FGF-FWF&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 " n:=3; explore();" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#K%'matrixG6#7+7+\"\"!\"\"\"F(F(F(F(F(F(F(7+F(F(F(F(F(F(F(F(F(F*F*F*
+F*F*F*F*Q(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}}{MARK "0 4 8 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }{RTABLE_HANDLES 137767180 
+137767244 137470020 }{RTABLE 
+M7R0
+I6RTABLE_SAVE/137767180X,%)anythingG6"F%[gl!"%!!!#\p"*"*""!F&F&F&F&F&F&F&F&F&F&
+F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F
+&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/137767244X,%)anythingG6"F%[gl!"%!!!#\p"*"*""!F&F&F&F&F&F&F&F&"""F
+'F&F'F&F'F&F'F&F&F&F&F&F&F&F&F&F&F&F'F&F'F&F'F&F'F&F&F&F&F&F&F&F&F&F&F&F'F&F'F&
+F'F&F'F&F&F&F&F&F&F&F&F&F&F&F'F&F'F&F'F&F'F&F&F&F&F&F&F&F&F&F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/137470020X,%)anythingG6"F%[gl!"%!!!#:"&"&""!F&F&F&F&"""F'F'F'F&F&
+F'F&F'F&F&F'F&F'F&F&F&F&F&F&F%
+}
+

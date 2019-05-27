@@ -1,0 +1,14 @@
+TABLE: vins:
+vin|prix_unitaire
+R|14
+GW|16
+PN|10
+PG|15
+
+TABLE: achats
+client|R|GW|PN|PG
+A|6|12|0|0
+B|12|6|0|6
+C|0|6|6|12
+D|6|6|12|0
+E|0|6|0|12

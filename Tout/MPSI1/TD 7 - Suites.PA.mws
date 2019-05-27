@@ -1,0 +1,405 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" 
+-1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 
+2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 1 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 256 "" 0 "" {TEXT -1 12 "TD  7\nSuites" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 256 16 "1 Etud
+e de suite" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 257 "" 0 "
+" {TEXT -1 11 "Exercice 1\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+20 "f:=x->(6*x+2)/(x+5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGf*6#
+%\"xG6\"6$%)operatorG%&arrowGF(*&,&*&\"\"'\"\"\"9$F0F0\"\"#F0F0,&F1F0
+\"\"&F0!\"\"F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "f := \+
+x -> (6*x+2)/(x+5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGf*6#%\"xG
+6\"6$%)operatorG%&arrowGF(*&,&*&\"\"'\"\"\"9$F0F0\"\"#F0F0,&F1F0\"\"&F
+0!\"\"F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "rsolve (u(n
++1)=f(u(n)), u(n));" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#-%'rsolveG6$/-%\"uG6#,&%\"nG\"\"\"F,F,*&,&*&\"
+\"'F,-F(6#F+F,F,\"\"#F,F,,&F1F,\"\"&F,!\"\"F1" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 31 "rsolve ne g\350re pas lesfractions" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 54 "u(n):=rsolve (\{u(n+1)*(u(n)+5)=6*u(n)+2,u(
+0)=0\},u(n));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%\"uG6#%\"nG,$*(\"
+\"#\"\"\",&)\"\"%F'F+)\"\"(F'!\"\"F+,&*&F*F+F-F+F+F/F+F1F1" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "u:=n->2*(-4^n+7^n)/(2*4^n+7^n);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"uGf*6#%\"nG6\"6$%)operatorG%&arrow
+GF(,$*(\"\"#\"\"\",&)\"\"%9$!\"\")\"\"(F3F/F/,&*&F.F/F1F/F/F5F/F4F/F(F
+(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "u(20);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6##\"2]hl!>6T>`\"2^e&p5b\")fE" }}}{EXCHG {PARA 
+258 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 10 "Exercice 2
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "rsolve(u(n+1)=g(u(n))+(1/(n+1)),u(n));" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+{PARA 8 "" 1 "" {TEXT -1 84 "Error, (in rsolve) Second argument must b
+e a function name or set of function names\n" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 22 "v:=n->sum(1/k,k=1..n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"vGf*6#%\"nG6\"6$%)operatorG%&arrowGF(-%$sumG6$*&\"
+\"\"F0%\"kG!\"\"/F1;F09$F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 69 "exo2:=proc(A)\nlocal N;\nN:=1;\nwhile A>=v(N)\ndo N:=N+1\nod;
+\nN \nend proc;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%%exo2Gf*6#%\"AG6#%\"NG6\"F*C%>8$\"\"\"?(F*F.F.F*
+1-%\"vG6#F-9$>F-,&F-F.F.F.F-F*F*F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "exo2(7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$;'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "exo2(7.48447086050);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$***" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "exo2bis:=proc(a)\noption rememeber\nif n=0" }}{PARA 
+8 "" 0 "" {TEXT -1 0 "" }}{PARA 8 "" 1 "" {TEXT -1 37 "Error, reserved
+ word `if` unexpected\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 88 "
+seuil2:=proc(A)\nlocal k,v:\nk:=0:\nv:=0:\nwhile v<=A \ndo k:=k+1 : \n
+v:=v+1/k\nod;\nk\nend proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'seui
+l2Gf*6#%\"AG6$%\"kG%\"vG6\"F+C&>8$\"\"!>8%F/?(F+\"\"\"F3F+1F19$C$>F.,&
+F.F3F3F3>F1,&F1F3*&F3F3F.!\"\"F3F.F+F+F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "seuil2(8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%u;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 84 "s:= NULL : for A from 0.1
+ to 7 by 0.1 \ndo s:=s,evalf(seuil2(A+1)/seuil2(A),4)\nod;\ns;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG$\"\"#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6$$\"\"#\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"sG6%$\"\"#\"\"!F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6&$
+\"\"#\"\"!F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6'$\"\"#\"\"
+!F&F&F&$\"\"$F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6($\"\"#\"\"!
+F&F&F&$\"\"$F(F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6)$\"\"#\"\"
+!F&F&F&$\"\"$F(F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6*$\"\"#
+\"\"!F&F&F&$\"\"$F(F)F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6+$
+\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"sG6,$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"sG6-$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F
+&$\"%+D!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6.$\"\"#\"\"!F&F&
+F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"sG6/$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG60$\"\"#\"\"!F&F&F&$\"\"$F(F
+)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"sG61$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF
+/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG62$\"\"#\"\"!F&F&F&$\"\"$F(
+F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG63$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG
+64$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"
+%nEF/F2F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG65$\"\"#\"\"!F&F&F&
+$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG66$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"sG67$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(
+F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"sG68$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F
+&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG69$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+
+GF/F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6:$\"\"#\"\"!F&F&F&$\"
+\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"
+%+CF/$\"%+GF/F-$\"%LGF/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6;$\"
+\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/
+F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6<$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%
+9FF/$\"%DEF/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG6=$\"\"#\"\"!F&F
+&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]
+FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"sG6>$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$
+\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF
+/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>
+%\"sG6?$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LB
+F/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%
+vGF/$\"%yFF/F8" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6@$\"\"#\"\"!F
+&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"
+%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=
+GF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6A$\"\"#\"\"!F&F&F&$\"\"$
+F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+C
+F/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6B$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+
+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6C$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+
+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%L
+FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6D$\"\"#\"\"!F&F&F&$\"\"$
+F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+C
+F/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VE
+F/$\"%LFF/$\"%1FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6E$\"\"#\"
+\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F
+-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$
+\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6F$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%
+9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o
+#F/F2" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6G$\"\"#\"\"!F&F&F&$\"
+\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"
+%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"
+%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6H$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%
+9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o
+#F/F2$\"%'p#F/$\"%?FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6I$\"
+\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/
+F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yF
+F/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%
+zEF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6J$\"\"#\"\"!F&F&F&$\"\"
+$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+
+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%V
+EF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6K$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+
+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%L
+FF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6#>%\"sG6L$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(
+F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%
+LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1F
+F/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%\"sG6M$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F
+&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%L
+GF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF
+/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6N$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F
+)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+
+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%L
+FF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%c
+FF/FN" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6O$\"\"#\"\"!F&F&F&$\"
+\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"
+%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"
+%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"
+%dFF/$\"%cFF/FN$\"%'o#F/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6P$
+\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nE
+F/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%
+yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$
+\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6Q$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%
+9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o
+#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$
+\"%5FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6R$\"\"#\"\"!F&F&F&$
+\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$
+\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$
+\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$
+\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6S$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D
+!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%
+9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o
+#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$
+\"%5FF/$\"%NFF/FH" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6T$\"\"#\"
+\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F
+-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$
+\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$
+\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#>%\"sG6U$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"
+%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$
+\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"
+%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$
+\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%\"sG6V$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F
+)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%D
+EF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%
+'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$
+\"%NFF/FHFhn$\"%<FF/$\"%;FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG
+6W$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"
+%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$
+\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF
+/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$
+\"%<FF/$\"%;FF/$\"%3FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6X$\"
+\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/
+F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yF
+F/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%
+zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<F
+F/$\"%;FF/$\"%3FF/$\"%EFF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6Y
+$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%n
+EF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"
+%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$
+\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"
+%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/" }}{PARA 12 "" 1 "" {XPPMATH 20 
+"6#>%\"sG6Z$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$
+\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF
+/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p
+#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%
+NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/Fjn" }}{PARA 12 "" 1 
+"" {XPPMATH 20 "6#>%\"sG6en$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$
+\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF
+/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$
+\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#
+F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6fn$\"\"#\"\"!F&F&F&$\"\"$F(
+F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/
+$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/
+$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/
+$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%
+EFF/$\"%IFF/FjnF<Ffn" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6gn$\"\"
+#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2
+F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/
+F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zE
+F/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/
+$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjn" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6hn$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+
+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"
+%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%
+o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<
+$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnF
+jnF<" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6in$\"\"#\"\"!F&F&F&$\"
+\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"
+%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"
+%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"
+%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF
+/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%\"sG6jn$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)
+F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%
+DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"
+%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$
+\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%C
+FF/$\"%:FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6[o$\"\"#\"\"!F&F
+&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]
+FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF
+/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF
+/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$
+\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%>FF/" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#>%\"sG6\\o$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"
+\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F
+-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$
+\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/F
+N$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%I
+FF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%>FF/Fho" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG6]o$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+
+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"
+%9FF/$\"%DEF/$\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%
+o#F/F2$\"%'p#F/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<
+$\"%5FF/$\"%NFF/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnF
+jnF<$\"%CFF/$\"%:FF/$\"%>FF/FhoFjn" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#
+>%\"sG6^o$\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%
+LBF/$\"%nEF/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$
+\"%vGF/$\"%yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F
+/$\"%?FF/$\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NF
+F/FHFhn$\"%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$
+\"%:FF/$\"%>FF/FhoFjnFjn" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6_o$
+\"\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nE
+F/F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%
+yFF/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$
+\"%zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"
+%<FF/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%
+>FF/FhoFjnFjn$\"%@FF/" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6`o$\"
+\"#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/
+F2F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yF
+F/F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%
+zEF/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<F
+F/$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%>FF
+/FhoFjnFjn$\"%@FF/FP" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6ao$\"\"
+#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2
+F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/
+F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zE
+F/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/
+$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%>FF/F
+hoFjnFjn$\"%@FF/FPFP" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"sG6bo$\"\"
+#\"\"!F&F&F&$\"\"$F(F)F)F)$\"\"%F(F&$\"%+D!\"$F-F)F)$\"%LBF/$\"%nEF/F2
+F)F-$\"%]FF/$\"%+CF/$\"%+GF/F-$\"%LGF/$\"%9FF/$\"%DEF/$\"%vGF/$\"%yFF/
+F8$\"%=GF/F:$\"%VEF/$\"%LFF/$\"%1FF/$\"%%o#F/F2$\"%'p#F/$\"%?FF/$\"%zE
+F/$\"%xEF/FJ$\"%dFF/$\"%cFF/FN$\"%'o#F/F<$\"%5FF/$\"%NFF/FHFhn$\"%<FF/
+$\"%;FF/$\"%3FF/$\"%EFF/$\"%IFF/FjnF<FfnFjnF<$\"%CFF/$\"%:FF/$\"%>FF/F
+hoFjnFjn$\"%@FF/FPFPFho" }}{PARA 12 "" 1 "" {XPPMATH 20 "6bo$\"\"#\"\"
+!F#F#F#$\"\"$F%F&F&F&$\"\"%F%F#$\"%+D!\"$F*F&F&$\"%LBF,$\"%nEF,F/F&F*$
+\"%]FF,$\"%+CF,$\"%+GF,F*$\"%LGF,$\"%9FF,$\"%DEF,$\"%vGF,$\"%yFF,F5$\"
+%=GF,F7$\"%VEF,$\"%LFF,$\"%1FF,$\"%%o#F,F/$\"%'p#F,$\"%?FF,$\"%zEF,$\"
+%xEF,FG$\"%dFF,$\"%cFF,FK$\"%'o#F,F9$\"%5FF,$\"%NFF,FEFen$\"%<FF,$\"%;
+FF,$\"%3FF,$\"%EFF,$\"%IFF,FgnF9FYFgnF9$\"%CFF,$\"%:FF,$\"%>FF,FeoFgnF
+gn$\"%@FF,FMFMFeo" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 257 11 "\nExercice \+
+3" }{TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "g:=x-
+>(1/2)*(x+a/x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gGf*6#%\"xG6\"6
+$%)operatorG%&arrowGF(,&*&#\"\"\"\"\"#F/9$F/F/*&F.F/*&%\"aGF/F1!\"\"F/
+F/F(F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "J'assimile u(n) \340 \+
+x. g(u(n))=u(n+1)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "g(x)-x;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"#!\"\"%\"xG\"\"\"F&*(F%F&%
+\"aGF(F'F&F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "g(x)/x;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&*&\"\"#!\"\"%\"xG\"\"\"F)*(F&F'%\"
+aGF)F(F'F)F)F(F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 74 "u(n+1) = f(u(
+n))\nSi (u(n)) converge, alors c'est vers un point fixe de g.\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "solve(g(x)=x,x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$*$%\"aG#\"\"\"\"\"#,$F#!\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 155 "1) D\351terminer un intervalle stable :
+\nc\340d : Si u(n) appartient \340 I alors u(n+1) appartient \340 I.\n
+Pour cel\340, il faut \351tudier les variations de la fonction g.\n" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(g(x),x);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#F%*(F&!\"\"%\"aGF%%\"xG!\"#F(" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 377 "-infinity               -sqrt(a)
+       0           +sqrt(a)                         +infinity\n       \+
+           +           0      -    l       -          0               \+
+   +\n                                                     <       sqr
+at(a)         >\n\nIntervalle stable : [sqrt(a), +oo[\n\nu(n) d\351cro
+issante\n<=> u(n+1)-u(n) <=0 pour tout n\n<=> g(u(n)) - u(n) <= pour t
+out n\n" }}{PARA 0 "" 0 "" {TEXT -1 15 "Etude g(x) - x\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "g(x)-x;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"\"#!\"\"%\"xG\"\"\"F&*(F%F&%\"aGF(F'F&F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "diff(g(x)-x,x);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,&#\"\"\"\"\"#!\"\"*(F&F'%\"aGF%%\"xG!\"#F'" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "g(sqrt(a))-sqrt(a);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 298 "g(x)-x est donc n\351gative pour tout x appartenant \340
+ [sqrt(a), +oo[\nDonc u(n+1)-u(n) est n\351gatif pour tout n appartena
+nt \340 l'ensemble indiqu\351 pr\351c\351dement.\nS'il existe une limi
+te, c'est sqrt(a), or (u(n)) est strictement d\351croissante et minor
+\351e par sqrt(a) (car intervalle stable).\nlim u(n) = sqrt(a)\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "(1/2)*(x+a/x)-sqrt(a)-(1/(2*
+sqrt(a)))*(x-a)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&\"\"#!\"\"%
+\"xG\"\"\"F(*(F%F&%\"aGF(F'F&F(*$F*#F(F%F&*(F%F&F*#F&F%,&F'F(F*F&F%F&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "H:=x->1/2*x+1/2*a/x-a^(
+1/2)-1/2/a^(1/2)*(x-a)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HGf*6
+#%\"xG6\"6$%)operatorG%&arrowGF(,**&#\"\"\"\"\"#F/9$F/F/*&F.F/*&%\"aGF
+/F1!\"\"F/F/*$F4F.F5*&#F/F0F/*&F4#F5F0,&F1F/F4F5F0F/F5F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "h:=x->diff(H=1/2*x+1/2*a/x-a
+^(1/2)-1/2*1/a^(1/2)*(x-a)^2,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"hGf*6#%\"xG6\"6$%)operatorG%&arrowGF(-%%diffG6$/%\"HG,**&#\"\"\"\"\"
+#F49$F4F4*&F3F4*&%\"aGF4F6!\"\"F4F4*$F9F3F:*&#F4F5F4*&F9#F:F5,&F6F4F9F
+:F5F4F:F6F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "h(x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"\"!,(#\"\"\"\"\"#F'*(F(!\"\"%\"aGF'
+%\"xG!\"#F**&F+#F*F(,&F,F'F+F*F'F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 11 "d\351croissant" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "H(
+sqrt(a));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"\"#!\"\"%\"aG#F&F%,
+&*$F'#\"\"\"F%F,F'F&F%F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 79 "H est
+ n\351gtive, c'est-\340-dire :\nx(n) - sqrt(a) <= 1/(2sqrt(a)) (x(n-1)
+ + a/x(n))\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 247 "x(n)-sqrt(a) = (
+a - 2sqrt(a) x(n-1) + x(n-1)\262) / 2 x(n)\nb = sqrt(a)\nx(n) - b = (b
+\262 - 2bx(n-1)+x\262) / 2x(n-1)\n             = (b - x(n-1) )\262 / 2
+x(n-1)\nOr x(n) <= sqrt(a)\nx(n) - b <= (b-x)\262 / (2x(n-1))\n       \+
+      <= 1/2sqrt(a) (x(n-1) - sqrt(a) )\262\n " }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 29 "exo2q3 : = (a, p::nonnegint)\n" }}{PARA 8 "" 
+1 "" {TEXT -1 22 "Error, `=` unexpected\n" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 258 "Si a=1, la suite est constante et \351gale \340 1, sinon
+ x0>b car 1/2*(b^2+1)>b puis par r\351currence, si xn>b, alors xn+1 au
+ssi, donc xn+1-xn>0 et xn est d\351croissante.\nEtant minor\351e par 0
+, elle converge et ce vers un point fixe de f : x -> 1/2 (x + a/x) : r
+acine(a)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 258 11 "Exercice 4\n" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 161 "arithmgeom:=proc(a,b,epsilon)\nlocal a1,b1, temp;
+\na1:=evalf(a);\nb1:=evalf(b);\nwhile abs(b1-a1)>epsilon do\ntemp:=a1;
+\na1:=(a1+b1)/2;\nb1:=sqrt(temp*b1);\nod;\na1;\nend;" }}{PARA 12 "" 1 
+"" {XPPMATH 20 "6#>%+arithmgeomGf*6%%\"aG%\"bG%(epsilonG6%%#a1G%#b1G%%
+tempG6\"F.C&>8$-%&evalfG6#9$>8%-F36#9%?(F.\"\"\"F<F.29&-%$absG6#,&F7F<
+F1!\"\"C%>8&F1>F1,&*&#F<\"\"#F<F1F<F<*&FJF<F7F<F<>F7-%%sqrtG6#*&FFF<F7
+F<F1F.F.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "arithmgeom(6,
+24,(0,0000000000001));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+[r\"eM\"
+!\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 1 "\n" }{TEXT 259 11 "Exercice 6\n" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 177 "syracus:=proc(k)\nlocal K,L,i,M;\nK:=k;
+\nL:=K;\ni:=0;\nM:=[i,K];\nwhile K<>1 do\nif is(K,even) then K:=K/2;\n
+else K:=3*K+1;\nfi;\nL:=L,K;\ni:=i+1;\nM:=M,[i,K];\nod;\nprint(plot([M
+]));\nL;\nend;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%(syracusGf*6#%\"kG
+6&%\"KG%\"LG%\"iG%\"MG6\"F-C)>8$9$>8%F0>8&\"\"!>8'7$F5F0?(F-\"\"\"F;F-
+0F0F;C&@%-%#isG6$F0%%evenG>F0,$*&#F;\"\"#F;F0F;F;>F0,&*&\"\"$F;F0F;F;F
+;F;>F36$F3F0>F5,&F5F;F;F;>F86$F8F9-%&printG6#-%%plotG6#7#F8F3F-F-F-" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "syracus(2);" }}{PARA 13 "
+" 1 "" {GLPLOT2D 508 494 494 {PLOTDATA 2 "6%-%'CURVESG6$7$7$$\"\"!F)$
+\"\"#F)7$$\"\"\"F)F--%'COLOURG6'%$RGBG$\"*++++\"!\")F(F(-%+_ATTRIBUTEG
+6#/Q'source6\"Q,mathdefaultF;-%+AXESLABELSG6$Q!F;F@-%%VIEWG6$%(DEFAULT
+GFD" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1
+" }}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 8 "" 1 "" {TEXT -1 33 "Error
+, type `seq` does not exist\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}{MARK "50 0 0" 177 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

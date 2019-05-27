@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="P:/Math Sup/MPSI1/Informatique/B03.db" foreign_keys="1"/><window><current_tab id="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="484"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="français"/><default_encoding codec=""/><browsetable_info data="AAAABAAAABIA6QB0AHUAZABpAGEAbgB0AHMAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAACABtAGEAdABoAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAABAAZgByAGEAbgDnAGEAaQBzAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAAAoAYQB2AHIAaQBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////w=="/></tab_browse><tab_sql><sql name="SQL 1">select * from étudiants;
+select nom, max(note) from math group by nom;
+select nom, min(note) from math group by nom;
+select nom, min(note), max(note) from math group by nom;
+select avg(note) from français;
+select avg(note) from math;
+select avg(note) from français union select avg(note) from math;
+select nom, avg(note) from math group by nom;
+select nom, avg(note) from français group by nom;
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

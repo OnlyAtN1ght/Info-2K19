@@ -1,0 +1,89 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 862 "meyer:=proc(a)\nif \+
+a=\"Attention les sup 1 de 2016!\" then `Ne modifiez pas le programme \+
+pr\351c\351dent dat\351 de 2012.`; \nelif a=\"Quel \342ge as-tu\" then
+ 35;\nelif a=\"Il vous attend ...\" then `au coin du bois !`;\nelif a=
+\"Chef, j'ai une question.\" then `Attention, JP, tu m'as d\351j\340 n
+iqu\351 tous mes chakras !`;\nelif a=\"Et si on se greffe des muscles \+
+dans l'oeil ?\" then `Ne le contrariez pas !`;\nelif a=\"Chef, vous po
+uvez monter le tableau ?\" then `Choisis un doigt !`;\nelif a=\"Monsie
+ur ?\" then `Flatte-moi !`;\nelif a=\"Pouic !\" then `Bon, je fais une
+ micro-sieste!`;\nelif a=\"...\" then `Tu r\352ves ! Tu es sur la plag
+e avec ma soeur !`;\nelif a=\"D\351sol\351 pour le retard\" then `Chan
+son !`;\nelif a=\"euh ...\" then `Attention, je bouffe la craie !`;\ne
+lif a=\"Pourquoi c'est un moins ?\" then `Mais je m'en TAPE!`;\nelif a
+=\"Chef, vous avez fait une erreur\" then `Il a raison !` fi ;\nend pr
+oc;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%&meyerGf*6#%\"aG6\"F(F(@</9$Q=Attention~les~sup~1~de~
+2016!F(%UNe~modifiez~pas~le~programme~pr|dyc|dydent~dat|dy~de~2012.G/F
++Q/Quel~|]yge~as-tuF(\"#N/F+Q3Il~vous~attend~...F(%2au~coin~du~bois~!G
+/F+Q9Chef,~j'ai~une~question.F(%UAttention,~JP,~tu~m'as~d|dyj|[y~niqu|
+dy~tous~mes~chakras~!G/F+QMEt~si~on~se~greffe~des~muscles~dans~l'oeil~
+?F(%7Ne~le~contrariez~pas~!G/F+QFChef,~vous~pouvez~monter~le~tableau~?
+F(%3Choisis~un~doigt~!G/F+Q+Monsieur~?F(%-Flatte-moi~!G/F+Q(Pouic~!F(%
+?Bon,~je~fais~une~micro-sieste!G/F+Q$...F(%NTu~r|eyves~!~Tu~es~sur~la~
+plage~avec~ma~soeur~!G/F+Q6D|dysol|dy~pour~le~retardF(%*Chanson~!G/F+Q
+(euh~...F(%@Attention,~je~bouffe~la~craie~!G/F+Q:Pourquoi~c'est~un~moi
+ns~?F(%3Mais~je~m'en~TAPE!G/F+Q@Chef,~vous~avez~fait~une~erreurF(%.Il~
+a~raison~!GF(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 862 "meyer
+:=proc(a)\nif a=\"Attention les sup 1 de 2016!\" then `Ne modifiez pas
+ le programme pr\351c\351dent dat\351 de 2012.`; \nelif a=\"Quel \342g
+e as-tu\" then 35;\nelif a=\"Il vous attend ...\" then `au coin du boi
+s !`;\nelif a=\"Chef, j'ai une question.\" then `Attention, JP, tu m'a
+s d\351j\340 niqu\351 tous mes chakras !`;\nelif a=\"Et si on se greff
+e des muscles dans l'oeil ?\" then `Ne le contrariez pas !`;\nelif a=
+\"Chef, vous pouvez monter le tableau ?\" then `Choisis un doigt !`;\n
+elif a=\"Monsieur ?\" then `Flatte-moi !`;\nelif a=\"Pouic !\" then `B
+on, je fais une micro-sieste!`;\nelif a=\"...\" then `Tu r\352ves ! Tu
+ es sur la plage avec ma soeur !`;\nelif a=\"D\351sol\351 pour le reta
+rd\" then `Chanson !`;\nelif a=\"euh ...\" then `Attention, je bouffe \+
+la craie !`;\nelif a=\"Pourquoi c'est un moins ?\" then `Mais je m'en \+
+TAPE!`;\nelif a=\"Chef, vous avez fait une erreur\" then `Il a raison \+
+!` fi ;\nend proc;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&meyerGf*6#%\"
+aG6\"F(F(@</9$Q=Attention~les~sup~1~de~2016!F(%UNe~modifiez~pas~le~pro
+gramme~pr|dyc|dydent~dat|dy~de~2012.G/F+Q/Quel~|]yge~as-tuF(\"#N/F+Q3I
+l~vous~attend~...F(%2au~coin~du~bois~!G/F+Q9Chef,~j'ai~une~question.F(
+%UAttention,~JP,~tu~m'as~d|dyj|[y~niqu|dy~tous~mes~chakras~!G/F+QMEt~s
+i~on~se~greffe~des~muscles~dans~l'oeil~?F(%7Ne~le~contrariez~pas~!G/F+
+QFChef,~vous~pouvez~monter~le~tableau~?F(%3Choisis~un~doigt~!G/F+Q+Mon
+sieur~?F(%-Flatte-moi~!G/F+Q(Pouic~!F(%?Bon,~je~fais~une~micro-sieste!
+G/F+Q$...F(%NTu~r|eyves~!~Tu~es~sur~la~plage~avec~ma~soeur~!G/F+Q6D|dy
+sol|dy~pour~le~retardF(%*Chanson~!G/F+Q(euh~...F(%@Attention,~je~bouff
+e~la~craie~!G/F+Q:Pourquoi~c'est~un~moins~?F(%3Mais~je~m'en~TAPE!G/F+Q
+@Chef,~vous~avez~fait~une~erreurF(%.Il~a~raison~!GF(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 921 "meyer:=proc(a)\nif a=\"Attention l
+es sup 1 de 2016!\" then `Ne modifiez pas le programme pr\351c\351dent
+ dat\351 de 2012.`; \nelif a=\"Quel \342ge as-tu\" then 35;\nelif a=\"
+Il vous attend ...\" then `au coin du bois !`;\nelif a=\"Chef, j'ai un
+e question.\" then `Attention, JP, tu m'as d\351j\340 niqu\351 tous me
+s chakras !`;\nelif a=\"Et si on se greffe des muscles dans l'oeil ?\"
+ then `Ne le contrariez pas !`;\nelif a=\"Chef, vous pouvez monter le \+
+tableau ?\" then `Choisis un doigt !`;\nelif a=\"Monsieur ?\" then `Fl
+atte-moi !`;\nelif a=\"Pouic !\" then `Bon, je fais une micro-sieste!`
+;\nelif a=\"...\" then `Tu r\352ves ! Tu es sur la plage avec ma soeur
+ !`;\nelif a=\"D\351sol\351 pour le retard\" then `Chanson !`;\nelif a
+=\"euh ...\" then `Attention, je bouffe la craie !`;\nelif a=\"Pourquo
+i c'est un moins ?\" then `Mais je m'en TAPE!`;\nelif a=\"Chef, vous a
+vez fait une erreur\" then `Il a raison !` \nelif a=\"Il est quelle he
+ure?\" then `Chef, il est midi !` fi ;\nend proc;\n" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%&meyerGf*6#%\"aG6\"F(F(@>/9$Q=Attention~les~sup~1~d
+e~2016!F(%UNe~modifiez~pas~le~programme~pr|dyc|dydent~dat|dy~de~2012.G
+/F+Q/Quel~|]yge~as-tuF(\"#N/F+Q3Il~vous~attend~...F(%2au~coin~du~bois~
+!G/F+Q9Chef,~j'ai~une~question.F(%UAttention,~JP,~tu~m'as~d|dyj|[y~niq
+u|dy~tous~mes~chakras~!G/F+QMEt~si~on~se~greffe~des~muscles~dans~l'oei
+l~?F(%7Ne~le~contrariez~pas~!G/F+QFChef,~vous~pouvez~monter~le~tableau
+~?F(%3Choisis~un~doigt~!G/F+Q+Monsieur~?F(%-Flatte-moi~!G/F+Q(Pouic~!F
+(%?Bon,~je~fais~une~micro-sieste!G/F+Q$...F(%NTu~r|eyves~!~Tu~es~sur~l
+a~plage~avec~ma~soeur~!G/F+Q6D|dysol|dy~pour~le~retardF(%*Chanson~!G/F
++Q(euh~...F(%@Attention,~je~bouffe~la~craie~!G/F+Q:Pourquoi~c'est~un~m
+oins~?F(%3Mais~je~m'en~TAPE!G/F+Q@Chef,~vous~avez~fait~une~erreurF(%.I
+l~a~raison~!G/F+Q5Il~est~quelle~heure?F(%4Chef,~il~est~midi~!GF(F(F(" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "3 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

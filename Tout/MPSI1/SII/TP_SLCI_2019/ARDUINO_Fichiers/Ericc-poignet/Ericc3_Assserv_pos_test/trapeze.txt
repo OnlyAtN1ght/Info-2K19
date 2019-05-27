@@ -1,0 +1,85 @@
+Serial.println("Entrer trapeze(points), vitesse(points/ms) ,temps montee(ms),horizon temporel separes par des virgules");
+Serial.println(" trapeze[0..1000000L] vitesse[0..15] temps[50..300] horizon temporel[0..2000]");
+while(OK== false){  
+while (Serial.available() > 0) {
+
+    // recherche du prochain entier sur le port série:
+    float iLTot = Serial.parseFloat();
+    // encore:
+    float iV0 = Serial.parseFloat();
+    // encore:
+    float idt0 = Serial.parseFloat();
+        // encore:
+    float ihorizon = Serial.parseFloat();
+    // recherche du caractère nouvelle ligne pour terminer
+
+    if (Serial.read() == '\n') {
+      // constrain the values to 0 - 255 et inverse
+      LTot = constrain(iLTot, 0, 1000000L);    //limiter deplacement
+      V0 = constrain(iV0, 0, 15);    //limiter vitess
+      dt0 = constrain(idt0, 50,300);    //limiter temps montée
+      horizon = constrain(ihorizon, 0,2000);    //limiter temps montée
+      // affiche :
+      Serial.print("Trapèze= ");
+      Serial.println(LTot);
+      Serial.print("Vitesse= ");
+      Serial.println(V0);
+      Serial.print("temps montee= ");
+      Serial.println(dt0);
+      Serial.print("horizon temporel= ");
+      Serial.println(horizon);
+      OK=true;
+ 
+ }
+ Serial.println("--------------------"); 
+} 
+}
+OK=false;
+
+
+
+// ------------------------------  fin entrée  
+ // lancement du mouvement 
+ 
+  date0=millis();
+  bool encore=true;
+  bool calcule;
+
+  int tempsTotal;
+  tempsTotal=int(1.0*LTot/V0)+dt0;
+
+  while (date<horizon) {
+  Mesure = recupPosition()-posinit;
+  Consigne=Trapeze(LTot,V0,dt0,date); 
+  calcule=myPID.Compute();
+
+  if (calcule) {
+  courant=analogRead(A1)*10/(3.3*1.023);
+  date=millis()-date0;
+
+
+//**************************************************************************  
+
+    // imprimer date et position 
+    Serial.print(date);
+    Serial.print(";" );
+    Serial.print(long(Consigne));
+    Serial.print(";" );
+    Serial.print(long(Mesure));
+    Serial.print(";" );
+    Serial.print(int(Commande));
+    Serial.print(";" );
+    Serial.println(courant);
+ 
+ //**************************************************************  
+  //  Serial.println(mesRes[n]);
+  
+   Fait_PWM(int(Commande));
+   } 
+  } // fin du mouvement
+  //myPID.SetMode(MANUAL);
+ Fait_PWM(0);
+
+    Serial.println("fini ");
+
+ Fait_PWM(0);

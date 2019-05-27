@@ -1,0 +1,139 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 34 "exerxixe 7: les matrices magiques!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "with(LinearAlgebra);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7dr%#&xG%$AddG%(AdjointG%3BackwardSubs
+tituteG%+BandMatrixG%&BasisG%-BezoutMatrixG%/BidiagonalFormG%-Bilinear
+FormG%5CharacteristicMatrixG%9CharacteristicPolynomialG%'ColumnG%0Colu
+mnDimensionG%0ColumnOperationG%,ColumnSpaceG%0CompanionMatrixG%0Condit
+ionNumberG%/ConstantMatrixG%/ConstantVectorG%%CopyG%2CreatePermutation
+G%-CrossProductG%-DeleteColumnG%*DeleteRowG%,DeterminantG%)DiagonalG%/
+DiagonalMatrixG%*DimensionG%+DimensionsG%+DotProductG%6EigenConditionN
+umbersG%,EigenvaluesG%-EigenvectorsG%&EqualG%2ForwardSubstituteG%.Frob
+eniusFormG%4GaussianEliminationG%2GenerateEquationsG%/GenerateMatrixG%
+(GenericG%2GetResultDataTypeG%/GetResultShapeG%5GivensRotationMatrixG%
+,GramSchmidtG%-HankelMatrixG%,HermiteFormG%3HermitianTransposeG%/Hesse
+nbergFormG%.HilbertMatrixG%2HouseholderMatrixG%/IdentityMatrixG%2Inter
+sectionBasisG%+IsDefiniteG%-IsOrthogonalG%*IsSimilarG%*IsUnitaryG%2Jor
+danBlockMatrixG%+JordanFormG%(LA_MainG%0LUDecompositionG%-LeastSquares
+G%,LinearSolveG%$MapG%%Map2G%*MatrixAddG%2MatrixExponentialG%/MatrixFu
+nctionG%.MatrixInverseG%5MatrixMatrixMultiplyG%+MatrixNormG%,MatrixPow
+erG%5MatrixScalarMultiplyG%5MatrixVectorMultiplyG%2MinimalPolynomialG%
+&MinorG%(ModularG%)MultiplyG%,NoUserValueG%%NormG%*NormalizeG%*NullSpa
+ceG%3OuterProductMatrixG%*PermanentG%&PivotG%*PopovFormG%0QRDecomposit
+ionG%-RandomMatrixG%-RandomVectorG%%RankG%6RationalCanonicalFormG%6Red
+ucedRowEchelonFormG%$RowG%-RowDimensionG%-RowOperationG%)RowSpaceG%-Sc
+alarMatrixG%/ScalarMultiplyG%-ScalarVectorG%*SchurFormG%/SingularValue
+sG%*SmithFormG%8StronglyConnectedBlocksG%*SubMatrixG%*SubVectorG%)SumB
+asisG%0SylvesterMatrixG%/ToeplitzMatrixG%&TraceG%*TransposeG%0Tridiago
+nalFormG%+UnitVectorG%2VandermondeMatrixG%*VectorAddG%,VectorAngleG%5V
+ectorMatrixMultiplyG%+VectorNormG%5VectorScalarMultiplyG%+ZeroMatrixG%
++ZeroVectorG%$ZipG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 339 "magi
+c:=proc(n)\nlocal M,k,i,j,I1,J1;\nif type(n,even) then error \"%1 n'es
+t pas impair\",n;fi;\nM:=Matrix(n,n);\ni:=1;\nj:=(n+1)/2;\nM[i,j]:=1;
+\nfor k from 2 to n^2 do \n  if i=1 then I1:=n;else I1:=i-1;fi;\n  if \+
+j=n then J1:=1;else J1:=j+1;fi;  \n  if M[I1,J1]<>0 then if i=n then I
+1:=1; else I1:=i+1;fi;J1:=j;fi;\nM[I1,J1]:=k;\ni:=I1;j:=J1;od;M;end;\n
+\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&magicGf*6#%\"nG6(%\"MG%\"kG%
+\"iG%\"jG%#I1G%#J1G6\"F/C)@$-%%typeG6$9$%%evenGY6$Q4%1~n'est~pas~impai
+rF/F5>8$-%'MatrixG6$F5F5>8&\"\"\">8',&*&#FA\"\"#FAF5FAFAFFFA>&F;6$F@FC
+FA?(8%FGFA*$)F5FGFA%%trueGC(@%/F@FA>8(F5>FT,&F@FAFA!\"\"@%/FCF5>8)FA>F
+en,&FCFAFAFA@$0&F;6$FTFen\"\"!C$@%/F@F5>FTFA>FT,&F@FAFAFA>FenFC>FjnFL>
+F@FT>FCFenF;F/F/F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "magic(
+9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*)QFy`-%'MATRIXG6
+#7+7+\"#Z\"#e\"#p\"#!)\"\"\"\"#7\"#B\"#M\"#X7+\"#d\"#o\"#z\"\"*\"#6\"#
+A\"#L\"#W\"#Y7+\"#n\"#y\"\")\"#5\"#@\"#K\"#V\"#a\"#c7+\"#x\"\"(\"#=\"#
+?\"#J\"#U\"#`\"#b\"#m7+\"\"'\"#<\"#>\"#I\"#T\"#_\"#j\"#l\"#w7+\"#;\"#F
+\"#H\"#S\"#^\"#i\"#k\"#v\"\"&7+\"#E\"#G\"#R\"#]\"#h\"#s\"#u\"\"%\"#:7+
+\"#O\"#Q\"#\\\"#g\"#r\"#t\"\"$\"#9\"#D7+\"#P\"#[\"#f\"#q\"#\")\"\"#\"#
+8\"#C\"#N%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "M1:=M
+atrix ([[1,2,-1,3,1],[0,1,1,-2,2],[2,1,-5,0,-4]]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#M1G-%'RTABLEG6%\"*3%yy`-%'MATRIXG6#7%7'\"\"\"\"\"#
+!\"\"\"\"$F.7'\"\"!F.F.!\"#F/7'F/F.!\"&F3!\"%%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "NullSpace(M1);" }{TEXT -1 30 "calcu
+l du noyau de la matrice!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$-%'RTAB
+LEG6%\"*C9-Q&-%'MATRIXG6#7'7#\"\"$7#!\"#7#\"\"!F07#\"\"\"&%'VectorG6#%
+'columnG-F%6%\"*/:-Q&-F)6#7'F,7#!\"\"F2F0F0F4" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 7 "exo 11:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "A
+:=<<2|lambda|-1>,<lambda-5|3|7>,<1|3|2>>;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'RTABLEG6%\"*SlLQ&-%'MATRIXG6#7%7%\"\"#%'lambda
+G!\"\"7%,&F/\"\"\"\"\"&F0\"\"$\"\"(7%F3F5F.%'MatrixG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 28 "b:=<5,7,4>;LinearSolve(A,b);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"bG-%'RTABLEG6%\"*_wRQ&-%'MATRIXG6#7%7#\"\"&
+7#\"\"(7#\"\"%&%'VectorG6#%'columnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%'RTABLEG6%\"*s&)RQ&-%'MATRIXG6#7%7#,$*&\"\"(\"\"\",&%'lambdaGF/F/!
+\"\"F2F27#,$*&F.F/F0F2F/7#*&,&\"\"*F2*&\"\"#F/F1F/F/F/F0F2&%'VectorG6#
+%'columnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "solve(Determin
+ant (A));" }{TEXT -1 22 "conditions sur lambda!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"\"\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "with(Student[LinearAlgebra]);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7
+cp%#&xG%\".G%'AddRowG%(AddRowsG%(AdjointG%9ApplyLinearTransformPlotG%3
+BackwardSubstituteG%+BandMatrixG%&BasisG%-BilinearFormG%5Characteristi
+cMatrixG%9CharacteristicPolynomialG%0ColumnDimensionG%,ColumnSpaceG%0C
+ompanionMatrixG%/ConstantMatrixG%/ConstantVectorG%1CrossProductPlotG%,
+DeterminantG%)DiagonalG%/DiagonalMatrixG%*DimensionG%+DimensionsG%*Eig
+enPlotG%/EigenPlotTutorG%,EigenvaluesG%1EigenvaluesTutorG%-Eigenvector
+sG%2EigenvectorsTutorG%&EqualG%<GaussJordanEliminationTutorG%4Gaussian
+EliminationG%9GaussianEliminationTutorG%2GenerateEquationsG%/GenerateM
+atrixG%,GramSchmidtG%3HermitianTransposeG%#IdG%/IdentityMatrixG%2Inter
+sectionBasisG%-InverseTutorG%+IsDefiniteG%-IsOrthogonalG%*IsSimilarG%*
+IsUnitaryG%2JordanBlockMatrixG%+JordanFormG%0LUDecompositionG%-LeastSq
+uaresG%1LeastSquaresPlotG%,LinearSolveG%1LinearSolveTutorG%1LinearSyst
+emPlotG%6LinearSystemPlotTutorG%4LinearTransformPlotG%9LinearTransform
+PlotTutorG%.MatrixBuilderG%2MinimalPolynomialG%&MinorG%,MultiplyRowG%%
+NormG%*NormalizeG%*NullSpaceG%&PivotG%*PlanePlotG%/ProjectionPlotG%0QR
+DecompositionG%-RandomMatrixG%-RandomVectorG%%RankG%6ReducedRowEchelon
+FormG%1ReflectionMatrixG%/RotationMatrixG%-RowDimensionG%)RowSpaceG%+S
+etDefaultG%,SetDefaultsG%)SumBasisG%(SwapRowG%)SwapRowsG%&TraceG%*Tran
+sposeG%+UnitVectorG%,VectorAngleG%.VectorSumPlotG%+ZeroMatrixG%+ZeroVe
+ctorG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "GaussianEliminatio
+nTutor(A);" }}{PARA 6 "" 1 "" {TEXT -1 38 "Initializing Java runtime e
+nvironment." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "GaussianElim
+inationTutor(magic(3));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{MARK "14 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }{RTABLE_HANDLES 537827388 537878408 
+538021424 538021504 538336540 538397652 538398572 }{RTABLE 
+M7R0
+I6RTABLE_SAVE/537827388X,%)anythingG6"6"[gl!"%!!!#\p"*"*"#Z"#d"#n"#x""'"#;"#E"#
+O"#P"#e"#o"#y""("#<"#F"#G"#Q"#["#p"#z"")"#="#>"#H"#R"#\"#f"#!)""*"#5"#?"#I"#S"#
+]"#g"#q""""#6"#@"#J"#T"#^"#h"#r"#")"#7"#A"#K"#U"#_"#i"#s"#t""#"#B"#L"#V"#`"#j"#
+k"#u""$"#8"#M"#W"#a"#b"#l"#v""%"#9"#C"#X"#Y"#c"#m"#w""&"#:"#D"#NF&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/537878408X,%)anythingG6"6"[gl!"%!!!#0"$"&"""""!""#F)F'F'!""F'!"&"
+"$!"#F(F'F)!"%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/538021424X*%)anythingG6"6"[gl!#%!!!"&"&""$!"#""!F)"""F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/538021504X*%)anythingG6"6"[gl!#%!!!"&"&""$!"""""""!F*F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/538336540X,%)anythingG6"6"[gl!"%!!!#*"$"$""#,&%'lambdaG"""!"&F*F*
+F)""$F,!""""(F'F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/538397652X*%)anythingG6"6"[gl!#%!!!"$"$""&""(""%F&
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/538398572X*%)anythingG6"6"[gl!#%!!!"$"$,$*$,&%'lambdaG"""!""F+F,!
+"(,$F(""(*&,&!"*F+F*""#F+F)F,F&
+}
+

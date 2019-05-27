@@ -1,0 +1,121 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 32 "Travaux Dirig\351s n\26010:Int\351gration" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "Int(tan(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$
+IntG6$-%$tanG6#%\"xGF)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "%
+=value(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$-%$tanG6#%\"xG
+F*,$-%#lnG6#-%$cosGF)!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "int(tan(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$-%#lnG6#-%$cos
+G6#%\"xG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "Int(sin(x)
+^2,x=0..Pi/2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*$)-%$sinG6
+#%\"xG\"\"#\"\"\"/F+;\"\"!,$*&F,!\"\"%#PiGF-F-" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "int(sin(x)^2,x=0..Pi/2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&\"\"%!\"\"%#PiG\"\"\"F(" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 154 "le Int \351crit l'int\351grale formelle, pour calculer u
+ne primitive : utiliser int\nm\352me chose que Diff et diff\nle % valu
+e est juste pour avoir la jolie \351galit\351" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "Diff(x^2,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%Di
+ffG6$*$)%\"xG\"\"#\"\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "diff(x^2,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"#\"\"\"%\"
+xGF&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "int((2*x^2+x+3)*e
+xp(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(\"\"'\"\"\"*&\"\"$F&%
+\"xGF&!\"\"*&\"\"#F&)F)F,F&F&F&-%$expG6#F)F&" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 204 "pi\350ges \340 cons : x doit \352tre libre (= pas de v
+aleur assign\351e)\nne pas appeler l'int\351grale I (I^2=-1)\non peut \+
+int\351grer avec changements de variable et tout le bordel, il faut ut
+iliser la biblioth\350que student" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "with(student);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7@%\"DG%%DiffG%*
+DoubleintG%$IntG%&LimitG%(LineintG%(ProductG%$SumG%*TripleintG%*change
+varG%/completesquareG%)distanceG%'equateG%*integrandG%*interceptG%)int
+partsG%(leftboxG%(leftsumG%)makeprocG%*middleboxG%*middlesumG%)midpoin
+tG%(powsubsG%)rightboxG%)rightsumG%,showtangentG%(simpsonG%&slopeG%(su
+mmandG%*trapezoidG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "I1:=I
+nt(1/(1+((x+1)/x)^(1/3)),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#I1G
+-%$IntG6$*&\"\"\"F),&F)F)*$)*&,&%\"xGF)F)F)F)F/!\"\"#F)\"\"$F)F)F0F/" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "changevar((x+1)/x=t^3,Int
+(1/(1+((x+1)/x)^(1/3)),x),t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$In
+tG6$,$**\"\"$\"\"\",&F)F)%\"tGF)!\"\"F+\"\"#,&F)F,*$)F+F(F)F)!\"#F,F+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,,*&#\"\"\"\"\"$F&-%#lnG6#,(*$)%\"tG\"\"#F&F&F.F
+&F&F&F&F&*&#F'\"\"%F&-F)6#,&F&F&F.F&F&!\"\"*&#F&\"#7F&-F)6#,&F.F&F&F6F
+&F&*&F&F&*&\"\"'F&F<F&F6F&*(F'F6,&F.F6F&F&F&F+F6F6" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 112 "pour calculer le bordel il faut d\351composer en
+ somme d'\351l\351ments simples ce que fait Maple avec convert( ,parfr
+ac)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "convert(-3/(1+t)*t^2/(-1+t^3
+)^2,parfrac);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,**\"\"#\"\"\"\"\"$!
+\"\"%\"tGF&,(*$)F)F%F&F&F)F&F&F&F(F&*&F&F&*&\"\"'F&),&F)F&F&F(F%F&F(F(
+*&,&F&F&F)F&F&F*!\"#F&*&F&F&*&\"#7F&F1F&F(F&*(F'F&\"\"%F(F3F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 149 "Note : Maple primitive le 1/(t-1)
+ en ln(t-1) ce qui suppose que t-1 est positif il faut mettre une vale
+ru absolue \340 la main (Maple reste tr\350s formel)" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "Int(arcsi
+n(x)^2,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*$)-%'arcsinG6#
+%\"xG\"\"#\"\"\"F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "IPP m\351th
+ode classique donc d\351rive l'arcsin et on int\350gre le 1 cach\351" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "intparts(Int(arcsin(x)^2,x),arcsi
+n(x)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&)-%'arcsinG6#%\"xG\"\"
+#\"\"\"F)F+F+-%$IntG6$,$**F*F+F&F+,&F+F+*$)F)F*F+!\"\"#F4F*F)F+F+F)F4
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "rebelote" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "intparts(%,arcsin(x));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,(*&)-%'arcsinG6#%\"xG\"\"#\"\"\"F)F+F+*,F*F+F&F+,&F)F+F+!\"\"F+
+,&F)F+F+F+F+,&F+F+*$)F)F*F+F.#F.F*F.-%$IntG6$,$**F*F+F0F.F-F+F/F+F+F)F
++" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 46 "le 1-x\262 se simplifie mais
+ Maple est un peu con" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&)-%'arcsinG6#%\"xG\"\"#\"\"\"F)F
++F+*,F*F+F&F+,&F)F+F+!\"\"F+,&F)F+F+F+F+,&F+F+*$)F)F*F+F.#F.F*F.*&F*F+
+F)F+F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,**()-%'arcsinG6#%\"xG\"\"#\"\"\"F*F
+,,&F,F,*$)F*F+F,!\"\"#F,F+F,*&F+F,F'F,F,*(F+F,F'F,F/F,F0*(F+F,F*F,F-F1
+F0F,F-#F0F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 30 "hem Maple est vrai
+ment con car" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "int(arcsin(x)^2,x);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&)-%'arcsinG6#%\"xG\"\"#\"\"\"F
+)F+F+*&F*F+F)F+!\"\"*(F*F+F&F+,&F+F+*$)F)F*F+F-#F+F*F+" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 30 "\347a se simplifie vraiment bien." }}
+{PARA 0 "" 0 "" {TEXT -1 60 "2. Calcul approch\351 d'int\351grales (av
+ec les sommes de Riemann)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 104 "rect:
+=proc(f::procedure,a,b,n::integer)\nlocal k;\n((b-a)/n)*sum(f(a+k(b-a)
+/n),k=0..n-1);\nevalf(%);\nend;\n\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%%rectGf*6&'%\"fG%*procedureG%\"aG%\"bG'%\"nG%(integerG6#%\"kG6\"F1C
+$*(,&9&\"\"\"9%!\"\"F69'F8-%$sumG6$-9$6#,&F7F6*&-8$6#F4F6F9F8F6/FC;\"
+\"!,&F9F6F6F8F6-%&evalfG6#%\"%GF1F1F1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "rect(sin,0,1,1000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#$\"+*=pFf%!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "?function
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "int(x,x=0..1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 19 "int(sin(x),x=0..1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&\"\"\"F$-%$cosG6#F$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 9 "evalf(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+Tp(
+pf%!#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "proc\351dure version He
+chner" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 163 "rectanglehechner:=proc(f,
+a,b,n)\nlocal s,i;\ns:=0.;#on lui dit qu'on travaille en valeur approc
+h\351e\nfor i from 0 to n-1 do\n   s:=s+f(a+i*(b-a)/n);\nod;\n(b-a)/n*
+s;\nend;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%1rectanglehechnerGf*6&%
+\"fG%\"aG%\"bG%\"nG6$%\"sG%\"iG6\"F.C%>8$$\"\"!F3?(8%F3\"\"\",&9'F6F6!
+\"\"%%trueG>F1,&F1F6-9$6#,&9%F6*(F5F6,&9&F6FAF9F6F8F9F6F6*(FCF6F8F9F1F
+6F.F.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "rectanglehechner
+(x->x,1,2,10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"++++]9!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "rect(x->x,1,2,10);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"++++]9!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "rectanglehechner(x,1,2,10);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,6*&#\"\"\"\"#5F&-%\"xG6#F&F&F&*&F%F&-F)6##\"#6F'F&F&*&
+F%F&-F)6##\"\"'\"\"&F&F&*&F%F&-F)6##\"#8F'F&F&*&F%F&-F)6##\"\"(F5F&F&*
+&F%F&-F)6##\"\"$\"\"#F&F&*&F%F&-F)6##\"\")F5F&F&*&F%F&-F)6##\"#<F'F&F&
+*&F%F&-F)6##\"\"*F5F&F&*&F%F&-F)6##\"#>F'F&F&" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 114 "si on prend de k de 1 \340 n, on fait la m\351thode d
+es rectangles par le dessus (on surestime la valeur de l'int\351grale)
+" }}{PARA 0 "" 0 "" {TEXT -1 57 "les deux m\351thodes ram\350nent au m
+\352me nombre quand n->infini" }}{PARA 0 "" 0 "" {TEXT -1 139 "la m
+\351thode des rectangles est une m\351thode d'ordre 0 : elle est exact
+e pour les polyn\364mes de degr\351 0, pour le degr\351 1 c'est d\351j
+\340 moins exact" }}{PARA 0 "" 0 "" {TEXT -1 25 "Maintenant : Newton-C
+otes" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{MARK "0 2 0" 0 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
